@@ -9,8 +9,8 @@ function Button(props) {
 }
 function App() {
   return <div style={{background: 'red'}}>
-    <HelloWorld kata='Hello World'/>
-    <Button nama='Hello World'/>
+    <HelloWorld kata='Bagas Satria Nurwinanto'/>
+    <Button nama='Bagas Satria Nurwinanto'/>
   </div>
 }
 
