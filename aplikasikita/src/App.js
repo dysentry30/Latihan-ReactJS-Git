@@ -10,7 +10,7 @@ function Button(props) {
 function App() {
   return <div style={{background: 'red'}}>
     <HelloWorld kata='Bagas Satria Nurwinanto'/>
-    <Button nama='Bagas Satria Nurwinanto'/>
+    <Button nama='Baga Satria Nurwinanto'/>
   </div>
 }
 
