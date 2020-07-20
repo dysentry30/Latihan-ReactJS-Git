@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,57 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid gray;
+  width: 50%;
+  height: 60%;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  text-align: center;
 }
+
+.task-list {
+  position: relative;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 15%;
+  margin: 1rem 1rem auto 1rem;
+  font-size: 12px;
+  text-align: left;
+}
+
+.task-list p, button {
+  
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.task-list p {
+  position: relative;
+  word-wrap: break-word;
+  width: 50%;
+  height: max-content;
+}
+
+.task-list button {
+  position: absolute;
+  top: -.4rem;
+  right: 0;
+  outline: none;
+  border: none;
+  background: rgb(207, 52, 52);
+  color: white;
+  cursor: pointer;
+  transition: .3s background ease-in-out;
+  padding: .5rem 1rem .5rem 1rem;
+}
+
+.task-list button:hover {
+  background: rgb(184, 47, 47);
+}
+
